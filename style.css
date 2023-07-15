@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url("https://br.web.img3.acsta.net/pictures/19/10/30/11/21/2740070.jpg");
+    background-repeat: no-repeat;
+    background-blend-mode: rgb(0 0 0/ 10%);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.image-container img{
+    width: 90px;
+    height: 90px;
+    border-radius: 40px;
+    border: 1 px solid #676464;
+}
+
+.buttons-wrapper img{
+    width: 36px;
+    height: 36px;
+    border-radius: 40px;
+    border: 1px solid #fff;
+}
+
+.buttons-wrapper{
+    display: flex;
+    gap: 21px;
+}
+
+h1{
+    color: #fff;
+    text-align: center;
+}
+
+.links-wrapper{
+    margin-top: 10px;
+    width: 70%;
+    text-align: center;
+}
+
+.links-wrapper a{
+    background-color: rgb(50,60,) ;
+    height: 36px;
+    padding: 9px;
+}
+
+.links-wrapper div{
+    background: radial-gradient(circle, rgba(1,17,99,1) 0%, rgba(202,179,221,1) 100%);
+    height: 36px;
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.links-wrapper p{
+    margin: 0;
+    padding-top: 9px;
+}
+
+.links-wrapper a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+.links-wrapper a:hover{
+    transform: scale(1.02);
+}
